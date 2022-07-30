@@ -118,15 +118,11 @@
     padding: 35px 0px;
   }
 }
-.logo-footer{
-  margin:35px;
-  padding:20px;
-}
 /*::::: fin footer*/
 .videos {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
   -ms-flex-align: center;
   border: 2px;
   flex-wrap: wrap;
@@ -136,10 +132,6 @@
   display: flex;
   -ms-flex-align: center;
   text-align: center;
-}
-
-.discografia {
-  background-image: linear-gradient(to right top, #092327, #082a2e, #073235, #05393c, #034142, #024847, #01504c, #025751, #065f56, #0d685a, #16705e, #1f7961);
 }
 
 .index {
@@ -152,7 +144,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .imagenesbanda {
@@ -166,6 +157,18 @@
 
 .estiloimagenes {
   border-radius: 20px;
+}
+
+.titulo-llamativo {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #092327;
+  color: white;
+  border-radius: 40px;
 }
 
 /*:::::formulario pagina de contacto*/
@@ -268,9 +271,11 @@
 .container-h {
   height: calc(70vh - 20px - 300px);
 }
-.container-c{
-  height: calc(50vh - 20px - 300px); 
+
+.container-d {
+  height: calc(45vh - 20px - 300px);
 }
+
 .collapse navbar-collapse {
   background-image: linear-gradient(to right top, #092327, #082a2e, #073235, #05393c, #034142, #024847, #01504c, #025751, #065f56, #0d685a, #16705e, #1f7961);
 }
@@ -443,6 +448,30 @@ li {
   }
 }
 /*Fin-Cards*/
+section .navegacion {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .body {
   background-image: linear-gradient(to right top, #092327, #082a2e, #073235, #05393c, #034142, #024847, #01504c, #025751, #065f56, #0d685a, #16705e, #1f7961);
+}
+
+.discografia {
+  background-image: linear-gradient(to right top, #092327, #082a2e, #073235, #05393c, #034142, #024847, #01504c, #025751, #065f56, #0d685a, #16705e, #1f7961);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .texto {
+    margin: 20px;
+  }
+}
+.discografia {
+  overflow-x: hidden;
 }/*# sourceMappingURL=styles.css.map */
